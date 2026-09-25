@@ -1,23 +1,43 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LinkHub: Vlada</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="card">
-      <img src="avatar.png" alt="avatar" class="avatar" />
-      <button class="btn-theme" id="btn-theme">Змінити тему</button>
-      <h2 class="name">Vladlena</h2>
-      <p class="status">#Krytaya</p>
-      <div class="links">
-        <a href="https://www.instagram.com/" class="btn">Instagram</a>
-        <a href="https://web.telegram.org/" class="btn">Telegram</a>
-        <a href="https://github.com/" class="btn">GitHub</a>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LinkHub: Vlada</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="card">
+    <img src="avatar.png" alt="avatar" class="avatar" />
+    <!-- From Uiverse.io by dexter-st -->
+    <div class="btn-wrapper">
+      <button class="btn-tema">
+        <span class="frame">
+          <span class="point top left"></span>
+          <span class="point top right"></span>
+          <span class="point bottom left"></span>
+          <span class="point bottom right"></span>
+        </span>
+        <span class="txt-box">
+          <span class="txt">Змінити тему</span>
+          <span class="txt">Повернути тему</span>
+        </span>
+      </button>
+      <div class="txt-secondary" id="hint1">Hover to reveal address</div>
+      <div class="txt-secondary" id="hint2">Click to copy</div>
     </div>
-    <script src="script.js"></script>
-  </body>
+
+    <h2 class="name">Vladlena</h2>
+    <p class="status">#Krytaya</p>
+    <div class="links">
+      <a href="https://www.instagram.com/" class="btn">Instagram</a>
+      <a href="https://web.telegram.org/" class="btn">Telegram</a>
+      <a href="https://github.com/" class="btn">GitHub</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
 </html>
